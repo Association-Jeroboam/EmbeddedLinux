@@ -29,8 +29,10 @@ sudo make && sudo make check && sudo make install
 cd ..
 
 #install python libraries
-sudo apt-get install python-pip
-sudo pip install python-can
+sudo apt-get install python3-pip
+pip3 install python-can
+pip3 install pygame==2.0.0
+
 
 #install CAN Linux lib
 sudo apt-get install can-utils
