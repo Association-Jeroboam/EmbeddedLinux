@@ -31,8 +31,7 @@ cd ..
 #install python libraries
 sudo apt-get install python3-pip
 pip3 install python-can
-pip3 install pygame==2.0.0
-
+pip3 install pygame==2.0.0.dev6
 
 #install CAN Linux lib
 sudo apt-get install can-utils
