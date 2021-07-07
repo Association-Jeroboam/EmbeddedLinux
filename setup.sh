@@ -40,3 +40,4 @@ sudo apt-get install libSDL2-2.0
 sudo apt-get install can-utils
 
 # Don't forget to reboot
+sudo apt-get install libSDL2-ttf-2.0.0

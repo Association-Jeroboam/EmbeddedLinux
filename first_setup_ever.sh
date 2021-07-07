@@ -3,7 +3,13 @@
 # Hat Startup config
 sudo su
 cat hat_boot_config.txt >> /boot/config.txt
+
 # CAN Config
 cat can_config.txt >> /etc/network/interfaces
+
+# Screen resolution
+cat screen_config.txt >> /boot/config.txt
+
+
 echo Done
 exit
