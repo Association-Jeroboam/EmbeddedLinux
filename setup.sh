@@ -3,7 +3,7 @@ sudo apt update
 sudo apt upgrade
 
 #install X window
-sudo apt install -y --no-install-recommends xserver-xorg-core xserver-xorg xfonts-base xinit
+sudo apt install -y --no-install-recommends xserver-xorg-core xserver-xorg xfonts-base xinit dbus-x11
 
 #install xfce
 sudo apt install -y --no-install-recommends xfce4 desktop-base lightdm
