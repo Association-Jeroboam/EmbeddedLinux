@@ -13,7 +13,7 @@ sudo apt install -y --no-install-recommends xfce4-terminal file-roller thunar-vo
 
 #install ROS dev stuff
 sudo apt install -y --no-install-recommends liblog4cxx-dev python3-dev
-sudo apt install -y --no-install-recommends python3-numpy python3-netifaces python3-yaml
+sudo apt install -y --no-install-recommends python3-numpy python3-netifaces python3-yaml python3-opencv
 
 #install CAN Hat driver
 sudo apt install -y wiringpi
