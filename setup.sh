@@ -2,8 +2,13 @@
 sudo apt update
 sudo apt upgrade
 
+#raspi-config
+wget https://mirrors.ustc.edu.cn/archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20220303_all.deb
+sudo apt install lua5.1  libatopology2 libfftw3-single3 libsamplerate0 alsa-utils
+sudo dpkg -i raspi-config_20220303_all.deb
+
 #install X window
-sudo apt install -y --no-install-recommends xserver-xorg-core xserver-xorg xfonts-base xinit dbus-x11
+sudo apt install -y --no-install-recommends xserver-xorg-core xserver-xorg xfonts-base xinit dbus-x11 xdiagnose
 
 #install xfce
 sudo apt install -y --no-install-recommends xfce4 desktop-base lightdm
