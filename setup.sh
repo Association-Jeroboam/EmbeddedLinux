@@ -39,6 +39,7 @@ cd ..
 sudo apt-get install python3-pip
 pip3 install python-can
 pip3 install pygame==2.0.0.dev6
+sudo pip3 install RPi.GPIO
 
 #ROS lib
 sudo apt-get install ros-galactic-tf-transformations
@@ -53,5 +54,10 @@ sudo apt-get -y install v4l-utils
 
 #install CAN Linux lib
 sudo apt-get install can-utils
+
+#Dynamixel SDK
+git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+cd DynamixelSDK/python
+sudo python3 setup.py install
 
 # Don't forget to reboot
