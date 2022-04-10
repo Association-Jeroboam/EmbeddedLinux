@@ -20,6 +20,8 @@ sudo apt install -y --no-install-recommends xfce4-terminal file-roller thunar-vo
 sudo apt install -y --no-install-recommends liblog4cxx-dev python3-dev
 sudo apt install -y --no-install-recommends python3-numpy python3-netifaces python3-yaml python3-opencv
 
+
+
 #install CAN Hat driver
 sudo apt install -y wiringpi
 wget https://project-downloads.drogon.net/wiringpi-latest.deb
@@ -38,11 +40,18 @@ sudo apt-get install python3-pip
 pip3 install python-can
 pip3 install pygame==2.0.0.dev6
 
+#ROS lib
+sudo apt-get install ros-galactic-tf-transformations
+sudo pip3 install transforms3d
+
 #pygame dependencies
 sudo apt-get install libSDL2-2.0
+sudo apt-get install libSDL2-ttf-2.0.0
+
+#Raspi CAM
+sudo apt-get -y install v4l-utils
 
 #install CAN Linux lib
 sudo apt-get install can-utils
 
 # Don't forget to reboot
-sudo apt-get install libSDL2-ttf-2.0.0
